@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7py3m645d7kw"]
+
+[ext_resource type="Script" uid="uid://vqtvddoj1dnn" path="res://main/procgen/procgen.gd" id="1_83x14"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_83x14")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(531, -430)
+zoom = Vector2(0.8, 0.8)
